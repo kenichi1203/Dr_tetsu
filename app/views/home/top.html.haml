@@ -1,0 +1,27 @@
+.body1
+.catch_copy
+  .name
+    %h1
+      太陽鍼灸院 
+    %p
+      〜Dr.鍼灸 NISHI屋〜
+  .catch_copy__text
+.nav 
+  .nav-ol 
+    %ul 
+      %info 
+        = link_to "MENU", { anchor: "menu" }
+    %ul 
+      %span 
+        = link_to "PRODUCTS", { anchor: "mybox2" }
+    %ul 
+      %span
+        = link_to "CONTACT", { anchor: "contact" }
+    %ul 
+      %span 
+        = link_to '/posts/' do
+          NEWS
+    %ul 
+      %span 
+        = link_to "ACCESS", { anchor: "access" }
+= render "/home/footer"

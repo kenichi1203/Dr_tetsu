@@ -1,0 +1,33 @@
+.catch_copy{
+  background-image: image-url("top.jpg");
+  background-size:    cover;
+  color: white;
+  height: 650px;
+  max-width: none;
+  margin-top: 0px;
+  margin-left: -10px;
+  overflow: hidden;
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+  &__text{
+    font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+    position: relative;
+    top: 25px;
+    left: 60px;
+    color: white;
+    p{
+      margin-top: -20px;
+    }
+  }
+}
+.number1{
+  font-size: 50px;
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+.number2{
+  font-size: 50px;
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+.number3{
+  font-size: 50px;
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
