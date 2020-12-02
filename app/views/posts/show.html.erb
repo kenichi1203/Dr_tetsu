@@ -1,9 +1,29 @@
+<div class = "box3">
+  <header>
+    <%= link_to '太陽鍼灸院', new_post_path %>
+    <p class = "sub2">〜Dr 鍼灸 NISHI屋〜</p>
+  </header>
+</div>
+
+<body class="blog2">
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<p class = "title1">
+  <strong>NEWS</strong>
   <%= @post.title %>
 </p>
 
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<%= @post.content %>
+
+</body>
+ 
+ </div>
+<footer class = "blog-footer">
+    <p class = "shinkyu">Dr 鍼灸 NISHI屋</p>
+    <p class = "adress1">〒538-0051 大阪府大阪市鶴見区横堤5-13-45 </p>
+    <p class = "tel1">TEL 090-4493-7883 / 営業時間 13時〜21時</p>
+    <p class = "icon1">長堀鶴見緑地線 横堤駅 徒歩５分</p>
+</footer>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+<div id="page_top"><a href="/posts/index"></a>
+
