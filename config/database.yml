@@ -52,3 +52,4 @@ production:
   database: Dr_tetsu_production
   username: Dr_tetsu
   password: <%= ENV['DR_TETSU_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
