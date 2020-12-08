@@ -17,6 +17,9 @@ default: &default
 development:
   <<: *default
   database: Dr_tetsu_development
+  username: root
+  password: kenichi1203
+  socket: /var/lib/mysql/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -24,6 +27,9 @@ development:
 test:
   <<: *default
   database: Dr_tetsu_test
+  username: root
+  password: kenichi1203
+  socket: /var/lib/mysql/mysql.sock
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
