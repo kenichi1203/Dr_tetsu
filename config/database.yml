@@ -52,6 +52,6 @@ production:
   <<: *default
   database: Dr_tetsu_production
   username: root
-  password: <%= ENV['DATABASE_PASSWORD'] %>
+  password: root
   socket: /var/lib/mysql/mysql.sock
   
