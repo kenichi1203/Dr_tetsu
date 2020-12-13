@@ -62,3 +62,5 @@ gem 'bourbon'
 gem 'devise'
 gem 'jquery-rails'
 gem 'font-awesome-sass'
+gem 'fog-aws'
+
